@@ -1,0 +1,12 @@
+node_modules/
+dist/
+*.local
+.env
+.env.*
+!.env.example
+.swiftclaw/
+*.tsbuildinfo
+
+tmp/
+*.log
+.DS_Store

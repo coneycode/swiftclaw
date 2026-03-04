@@ -1,0 +1,17 @@
+{
+  "name": "@swiftclaw/example-feishu-basic",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "tsx index.ts"
+  },
+  "dependencies": {
+    "@swiftclaw/feishu": "workspace:*",
+    "@swiftclaw/tools": "workspace:*",
+    "swiftclaw": "workspace:*"
+  },
+  "devDependencies": {
+    "tsx": "^4.0.0"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "@swiftclaw/example-07-custom-provider",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "tsx index.ts"
+  },
+  "dependencies": {
+    "swiftclaw": "workspace:*"
+  },
+  "devDependencies": {
+    "@ai-sdk/anthropic": "^1.0.0",
+    "@ai-sdk/openai": "^1.0.0",
+    "@ai-sdk/openai-compatible": "^2.0.0",
+    "@ai-sdk/provider": "^1.0.0",
+    "tsx": "^4.0.0"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "swiftclaw-monorepo",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "build": "pnpm -r --filter './packages/*' build",
+    "test": "vitest run",
+    "typecheck": "pnpm -r --filter './packages/*' typecheck",
+    "dev": "vitest",
+    "example:01": "pnpm --filter @swiftclaw/example-01-basic-agent start",
+    "example:02": "pnpm --filter @swiftclaw/example-02-memory start",
+    "example:03": "pnpm --filter @swiftclaw/example-03-tools start",
+    "example:04": "pnpm --filter @swiftclaw/example-04-multi-agent start",
+    "example:05": "pnpm --filter @swiftclaw/example-05-plugins start",
+    "example:07": "pnpm --filter @swiftclaw/example-07-custom-provider start"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsup": "^8.0.0",
+    "typescript": "^5.8.0",
+    "vitest": "^3.0.0"
+  }
+}
