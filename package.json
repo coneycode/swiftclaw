@@ -12,7 +12,8 @@
     "example:03": "pnpm --filter @swiftclaw/example-03-tools start",
     "example:04": "pnpm --filter @swiftclaw/example-04-multi-agent start",
     "example:05": "pnpm --filter @swiftclaw/example-05-plugins start",
-    "example:07": "pnpm --filter @swiftclaw/example-07-custom-provider start"
+    "example:07": "pnpm --filter @swiftclaw/example-07-custom-provider start",
+    "assistant": "pnpm --filter @swiftclaw/assistant start"
   },
   "devDependencies": {
     "@types/node": "^22.0.0",

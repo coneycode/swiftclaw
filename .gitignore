@@ -10,3 +10,6 @@ dist/
 tmp/
 *.log
 .DS_Store
+
+# Assistant app — personal memory (private data)
+apps/assistant/memory/
